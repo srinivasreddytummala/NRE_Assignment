@@ -1,5 +1,9 @@
 # NRE — Devices Dashboard
 
+## Project Preview
+
+![NRE Project Screenshot](assets/nre_project.png)
+
 A README file with only the essentials: how to set up, run, and test the project.
 
 ## Prerequisites
