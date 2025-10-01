@@ -11,7 +11,36 @@ A README file with only the essentials: how to set up, run, and test the project
 - Python 3.10+
 - Recommended: create a virtual environment
 
-## Setup (one-time)
+## Run locally with Docker
+
+1. Clone:
+   git clone https://github.com/your-username/nre_project.git
+
+   cd nre_project
+
+2. Make entrypoint executable (once):
+
+   chmod +x entrypoint.sh
+
+3. Build & start:
+
+   docker compose up --build
+
+4. Open in browser:
+
+   http://127.0.0.1:8000/ -> Dashboard
+
+   http://127.0.0.1:8000/devices -> Devices List
+
+5. Stop:
+
+   docker compose down
+
+6. Run tests:
+
+   docker compose run --rm web pytest -q
+
+## Manual Setup (one-time)
 
 From the project root (where `manage.py` lives):
 
